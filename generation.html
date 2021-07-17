@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album of our next stage</title>
+    <style>
+        .phot-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 245px;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+            border: 3px solid greenyellow;
+        }
+
+        .photo img {
+            width: 300px;
+            height: 245px;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            position: absolute;
+            width: 300px;
+            top: 0;
+            display: none;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            color: black;
+            background-color: rgba(166, 238, 22, 0.445);
+            font-weight: bolder;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) rotate(360deg);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+<h1>Photo Album of Third Generation</h1>
+<section>
+    <div class="phot-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Eva.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Eva</h2>
+                <p>She is in class 14 at Womens College in Sylhet. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Nuva.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Nuva</h2>
+                <p>She is in class 10 at Government School at Jaintiapur. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Hisham.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Hisham</h2>
+                <p>He is in class 7 at Central jaintia High School at Darbasth. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Rafa.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Rafa</h2>
+                <p>She is in class 5 at Bafor Schcool at Jaintiapur. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Safa.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Safa</h2>
+                <p>She is in class 3 at Bafor Schcool at Jaintiapur. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Zarif.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Zarif</h2>
+                <p>He is in class 3 at Mayer School at Chotul. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Nishi.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Nashita</h2>
+                <p>She is in class 2 at Shahjalal Jamia Islamia School and College in Sylhet. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Ari.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Ariba</h2>
+                <p>She is in class 1 in London. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Nowfa.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Nowfa</h2>
+                <p>She is in 5. She go to masjid . </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Siam.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Siam</h2>
+                <p>He is in 4 years and do not go to school. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Labu.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Labib</h2>
+                <p>He is in 2.5 years and play at home with his grandpa. </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Nafi.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h2>This is Nafiz</h2>
+                <p>He is only 2 years old and make sweet noise at home. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<body>
+
+</body>
+
+</html>
